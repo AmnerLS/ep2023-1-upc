@@ -1,0 +1,50 @@
+{
+  "participants": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "photoUrl": "",
+      "centerId": 1,
+      "ranking": 1,
+      "recordTime": "00:30:00"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "photoUrl": "",
+      "centerId": 1,
+      "ranking": 2,
+      "recordTime": "00:35:00"
+    },
+    {
+      "id": 3,
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "photoUrl": "",
+      "centerId": 2,
+      "ranking": 3,
+      "recordTime": "00:32:00"
+    },
+    {
+      "id": 4,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "photoUrl": "",
+      "centerId": 2,
+      "ranking": 4,
+      "recordTime": "00:40:00"
+    }
+  ],
+  "centers": [
+    {
+      "id": 1,
+      "name": "Center 1"
+    },
+    {
+      "id": 2,
+      "name": "Center 2"
+    }
+  ]
+}
