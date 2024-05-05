@@ -38,8 +38,4 @@ export class CentersService {
       .pipe(retry(2), catchError(this.handleError));
   }
 
-  getById(id: number){
-    return this.http.get(`${this.basePath}${this.resourceEndpoint}/${id}`, this.httpOptions)
-      .pipe(retry(2), catchError(this.handleError));
-  }
 }
